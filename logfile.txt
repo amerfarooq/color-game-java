@@ -1,0 +1,1735 @@
++-----------------+
+| GAME PARAMETERS |
++-----------------+
+
+--Number of decks: 4
+--Number of players: 4
+
+--PLAYER NAMES:
+----A
+----B
+----C
+----D
+
+--DETERMINIG FIRST PLAYER:
+----TEN of DIAMONDS dealt to A
+----JACK of CLUBS dealt to B
+
+--FIRST PLAYER: B
+--SELECTED SUIT: SPADES
+
++----------------+
+| ORDER OF TURNS |
++----------------+
+
+----1 -> B
+----2 -> A
+----3 -> C
+----4 -> D
+
++---------------+
+| INITIAL HANDS |
++---------------+
+
+--B's hand (52):
+----JACK of HEARTS
+----THREE of HEARTS
+----KING of SPADES
+----FIVE of HEARTS
+----SEVEN of SPADES
+----SIX of SPADES
+----NINE of SPADES
+----TEN of SPADES
+----QUEEN of SPADES
+----KING of DIAMONDS
+----SIX of HEARTS
+----NINE of DIAMONDS
+----SIX of HEARTS
+----JACK of SPADES
+----FOUR of HEARTS
+----TWO of HEARTS
+----ACE of HEARTS
+----TEN of SPADES
+----JACK of DIAMONDS
+----EIGHT of HEARTS
+----FOUR of DIAMONDS
+----SEVEN of DIAMONDS
+----EIGHT of DIAMONDS
+----SIX of CLUBS
+----TWO of CLUBS
+----FIVE of CLUBS
+----FIVE of SPADES
+----TWO of HEARTS
+----FOUR of SPADES
+----SIX of SPADES
+----THREE of CLUBS
+----THREE of CLUBS
+----EIGHT of HEARTS
+----TWO of CLUBS
+----THREE of HEARTS
+----TEN of DIAMONDS
+----KING of CLUBS
+----ACE of SPADES
+----SEVEN of HEARTS
+----TWO of DIAMONDS
+----FOUR of DIAMONDS
+----EIGHT of CLUBS
+----NINE of DIAMONDS
+----ACE of SPADES
+----SIX of SPADES
+----KING of CLUBS
+----THREE of HEARTS
+----ACE of DIAMONDS
+----SIX of DIAMONDS
+----KING of SPADES
+----NINE of CLUBS
+----SIX of HEARTS
+
+
+--A's hand (52):
+----QUEEN of HEARTS
+----QUEEN of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----TWO of CLUBS
+----FIVE of HEARTS
+----SIX of DIAMONDS
+----TWO of SPADES
+----SIX of SPADES
+----NINE of HEARTS
+----SEVEN of DIAMONDS
+----THREE of CLUBS
+----KING of HEARTS
+----KING of DIAMONDS
+----NINE of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----TEN of HEARTS
+----TEN of CLUBS
+----ACE of DIAMONDS
+----TEN of DIAMONDS
+----JACK of CLUBS
+----FOUR of CLUBS
+----FOUR of DIAMONDS
+----KING of DIAMONDS
+----EIGHT of SPADES
+----THREE of DIAMONDS
+----JACK of DIAMONDS
+----THREE of SPADES
+----ACE of CLUBS
+----TWO of SPADES
+----QUEEN of SPADES
+----TEN of CLUBS
+----JACK of HEARTS
+----EIGHT of DIAMONDS
+----ACE of HEARTS
+----FIVE of CLUBS
+----SEVEN of DIAMONDS
+----FOUR of HEARTS
+----FOUR of DIAMONDS
+----QUEEN of HEARTS
+----NINE of HEARTS
+----SEVEN of CLUBS
+----EIGHT of SPADES
+----QUEEN of CLUBS
+----FIVE of CLUBS
+----EIGHT of CLUBS
+----TWO of HEARTS
+----SEVEN of CLUBS
+----QUEEN of DIAMONDS
+----THREE of SPADES
+----JACK of SPADES
+
+
+--C's hand (52):
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----FIVE of CLUBS
+----EIGHT of CLUBS
+----TEN of SPADES
+----FIVE of DIAMONDS
+----EIGHT of DIAMONDS
+----NINE of SPADES
+----SEVEN of CLUBS
+----NINE of HEARTS
+----JACK of SPADES
+----JACK of HEARTS
+----QUEEN of CLUBS
+----FIVE of DIAMONDS
+----SIX of HEARTS
+----TEN of HEARTS
+----SEVEN of SPADES
+----QUEEN of DIAMONDS
+----JACK of SPADES
+----SIX of CLUBS
+----ACE of HEARTS
+----FIVE of DIAMONDS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----THREE of SPADES
+----SIX of CLUBS
+----EIGHT of SPADES
+----JACK of HEARTS
+----TWO of DIAMONDS
+----FOUR of SPADES
+----TEN of HEARTS
+----THREE of HEARTS
+----SEVEN of HEARTS
+----THREE of DIAMONDS
+----JACK of CLUBS
+----TEN of CLUBS
+----KING of HEARTS
+----KING of HEARTS
+----JACK of DIAMONDS
+----FOUR of HEARTS
+----NINE of CLUBS
+----NINE of CLUBS
+----KING of DIAMONDS
+----TWO of DIAMONDS
+----FIVE of DIAMONDS
+----TWO of HEARTS
+----FIVE of HEARTS
+----ACE of SPADES
+----TEN of DIAMONDS
+----FIVE of SPADES
+----FIVE of HEARTS
+----ACE of CLUBS
+
+
+--D's hand (52):
+----KING of HEARTS
+----EIGHT of DIAMONDS
+----NINE of DIAMONDS
+----QUEEN of CLUBS
+----SEVEN of HEARTS
+----TWO of DIAMONDS
+----JACK of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----EIGHT of HEARTS
+----ACE of HEARTS
+----TWO of CLUBS
+----EIGHT of CLUBS
+----FOUR of SPADES
+----JACK of CLUBS
+----TWO of SPADES
+----EIGHT of SPADES
+----SEVEN of DIAMONDS
+----FOUR of CLUBS
+----KING of SPADES
+----SEVEN of SPADES
+----QUEEN of DIAMONDS
+----TEN of DIAMONDS
+----SIX of DIAMONDS
+----SEVEN of SPADES
+----ACE of CLUBS
+----FOUR of CLUBS
+----KING of CLUBS
+----QUEEN of DIAMONDS
+----FOUR of CLUBS
+----TEN of CLUBS
+----FOUR of SPADES
+----ACE of SPADES
+----KING of CLUBS
+----NINE of SPADES
+----NINE of HEARTS
+----FIVE of SPADES
+----NINE of CLUBS
+----TEN of HEARTS
+----JACK of CLUBS
+----TEN of SPADES
+----TWO of SPADES
+----SIX of DIAMONDS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of CLUBS
+----KING of SPADES
+----SIX of CLUBS
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----NINE of SPADES
+----QUEEN of SPADES
+
+
++----------------+
+| B's first turn |
++----------------+
+
+--B's hand before first turn (52)
+----ACE of HEARTS
+----JACK of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----TWO of HEARTS
+----TWO of HEARTS
+----ACE of SPADES
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----SEVEN of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----TWO of DIAMONDS
+----KING of CLUBS
+----KING of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+----THREE of CLUBS
+----THREE of CLUBS
+----TWO of CLUBS
+----TWO of CLUBS
+
+--Following five cards dumped into pile:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+
+--Pile before dumping:
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+
+--B's hand after first turn (47)
+----ACE of HEARTS
+----JACK of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----ACE of SPADES
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----SEVEN of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----KING of CLUBS
+----KING of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+----THREE of CLUBS
+----THREE of CLUBS
+
+
++----------------+
+| A's first turn |
++----------------+
+
+--A's hand before first turn (52)
+----ACE of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----NINE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----TWO of HEARTS
+----QUEEN of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----EIGHT of SPADES
+----EIGHT of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----THREE of DIAMONDS
+----ACE of CLUBS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----TEN of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SEVEN of CLUBS
+----FIVE of CLUBS
+----FIVE of CLUBS
+----FOUR of CLUBS
+----THREE of CLUBS
+----TWO of CLUBS
+
+--Following five cards dumped into pile:
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+
+--A's hand after first turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----NINE of HEARTS
+----FIVE of HEARTS
+----QUEEN of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----EIGHT of SPADES
+----EIGHT of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----ACE of CLUBS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----TEN of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SEVEN of CLUBS
+----FIVE of CLUBS
+----FIVE of CLUBS
+----FOUR of CLUBS
+
+
++----------------+
+| C's first turn |
++----------------+
+
+--C's hand before first turn (52)
+----ACE of HEARTS
+----KING of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----TWO of HEARTS
+----ACE of SPADES
+----JACK of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----THREE of SPADES
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----EIGHT of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+
+--Following five cards dumped into pile:
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+
+--C's hand after first turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----ACE of SPADES
+----JACK of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----THREE of SPADES
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----EIGHT of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+
+
++----------------+
+| D's first turn |
++----------------+
+
+--D's hand before first turn (52)
+----ACE of HEARTS
+----KING of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of HEARTS
+----FOUR of HEARTS
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----FOUR of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----QUEEN of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----SIX of DIAMONDS
+----TWO of DIAMONDS
+----ACE of CLUBS
+----KING of CLUBS
+----KING of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----THREE of CLUBS
+----TWO of CLUBS
+
+--Following five cards dumped into pile:
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of SPADES
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of SPADES
+
+--D's hand after first turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of HEARTS
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----FOUR of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----QUEEN of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----SIX of DIAMONDS
+----ACE of CLUBS
+----KING of CLUBS
+----KING of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+
+
++-----------------+
+| B's second turn |
++-----------------+
+
+--B's hand before second turn (47)
+----ACE of HEARTS
+----JACK of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of HEARTS
+----ACE of SPADES
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----SEVEN of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----KING of CLUBS
+----KING of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+----THREE of CLUBS
+----THREE of CLUBS
+
+--Following two cards dumped into pile:
+----THREE of HEARTS
+----THREE of HEARTS
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of SPADES
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----FOUR of HEARTS
+----TWO of SPADES
+----THREE of HEARTS
+----THREE of HEARTS
+
+--Cards drawn from the pile:
+----FOUR of HEARTS
+----FOUR of HEARTS
+
+--Pile after drawing cards:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of SPADES
+----THREE of HEARTS
+----THREE of HEARTS
+
+--B's hand after second turn (47)
+----ACE of HEARTS
+----JACK of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----FOUR of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----ACE of SPADES
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----SEVEN of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----KING of CLUBS
+----KING of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+----THREE of CLUBS
+----THREE of CLUBS
+
++-----------------+
+| A's second turn |
++-----------------+
+
+--A's hand before second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----NINE of HEARTS
+----FIVE of HEARTS
+----QUEEN of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----EIGHT of SPADES
+----EIGHT of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----ACE of CLUBS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----TEN of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SEVEN of CLUBS
+----FIVE of CLUBS
+----FIVE of CLUBS
+----FOUR of CLUBS
+
+--Following two cards dumped into pile:
+----TWO of SPADES
+----TWO of SPADES
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of SPADES
+----THREE of HEARTS
+----THREE of HEARTS
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of SPADES
+----THREE of HEARTS
+----THREE of HEARTS
+----TWO of SPADES
+----TWO of SPADES
+
+--Cards drawn from the pile:
+----TWO of SPADES
+----TWO of SPADES
+
+--Pile after drawing cards:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----TWO of SPADES
+
+--A's hand after second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----NINE of HEARTS
+----FIVE of HEARTS
+----QUEEN of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----EIGHT of SPADES
+----EIGHT of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----ACE of CLUBS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----TEN of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SEVEN of CLUBS
+----FIVE of CLUBS
+----FIVE of CLUBS
+----FOUR of CLUBS
+
++-----------------+
+| C's second turn |
++-----------------+
+
+--C's hand before second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----ACE of SPADES
+----JACK of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----THREE of SPADES
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----EIGHT of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+
+--Following two cards dumped into pile:
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----TWO of SPADES
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of DIAMONDS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----TWO of SPADES
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+
+--Cards drawn from the pile:
+----TWO of SPADES
+----THREE of DIAMONDS
+
+--Pile after drawing cards:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+
+--C's hand after second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----ACE of SPADES
+----JACK of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----EIGHT of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----THREE of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+
++-----------------+
+| D's second turn |
++-----------------+
+
+--D's hand before second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of HEARTS
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----FOUR of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----QUEEN of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----SIX of DIAMONDS
+----ACE of CLUBS
+----KING of CLUBS
+----KING of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+
+--Following two cards dumped into pile:
+----TWO of SPADES
+----FOUR of CLUBS
+
+--Pile before dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+
+--Pile after dumping:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+----TWO of SPADES
+----FOUR of CLUBS
+
+--Cards drawn from the pile:
+----TWO of SPADES
+----FOUR of CLUBS
+
+--Pile after drawing cards:
+----TWO of HEARTS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----TWO of CLUBS
+----TWO of HEARTS
+----TWO of CLUBS
+----THREE of CLUBS
+----TWO of HEARTS
+----TWO of DIAMONDS
+----TWO of DIAMONDS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----TWO of DIAMONDS
+----TWO of CLUBS
+----THREE of CLUBS
+----THREE of HEARTS
+----THREE of HEARTS
+----THREE of DIAMONDS
+----THREE of DIAMONDS
+
+--D's hand after second turn (47)
+----ACE of HEARTS
+----KING of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of HEARTS
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----FOUR of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----QUEEN of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----SIX of DIAMONDS
+----ACE of CLUBS
+----KING of CLUBS
+----KING of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+
++-------------+
+| FINAL HANDS |
++-------------+
+
+--B's hand (47):
+----ACE of HEARTS
+----JACK of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----FOUR of HEARTS
+----FOUR of HEARTS
+----THREE of HEARTS
+----ACE of SPADES
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----SEVEN of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----KING of CLUBS
+----KING of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+----THREE of CLUBS
+----THREE of CLUBS
+
+
+--A's hand (47):
+----ACE of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----NINE of HEARTS
+----FIVE of HEARTS
+----QUEEN of SPADES
+----QUEEN of SPADES
+----JACK of SPADES
+----EIGHT of SPADES
+----EIGHT of SPADES
+----SIX of SPADES
+----FIVE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----KING of DIAMONDS
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----FOUR of DIAMONDS
+----FOUR of DIAMONDS
+----ACE of CLUBS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----TEN of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SEVEN of CLUBS
+----FIVE of CLUBS
+----FIVE of CLUBS
+----FOUR of CLUBS
+
+
+--C's hand (47):
+----ACE of HEARTS
+----KING of HEARTS
+----KING of HEARTS
+----QUEEN of HEARTS
+----QUEEN of HEARTS
+----JACK of HEARTS
+----JACK of HEARTS
+----TEN of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----SEVEN of HEARTS
+----SIX of HEARTS
+----FIVE of HEARTS
+----FIVE of HEARTS
+----FOUR of HEARTS
+----ACE of SPADES
+----JACK of SPADES
+----JACK of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----THREE of SPADES
+----TWO of SPADES
+----KING of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----EIGHT of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----FIVE of DIAMONDS
+----THREE of DIAMONDS
+----ACE of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----SIX of CLUBS
+----FIVE of CLUBS
+
+
+--D's hand (47):
+----ACE of HEARTS
+----KING of HEARTS
+----TEN of HEARTS
+----NINE of HEARTS
+----EIGHT of HEARTS
+----EIGHT of HEARTS
+----SEVEN of HEARTS
+----SEVEN of HEARTS
+----ACE of SPADES
+----KING of SPADES
+----KING of SPADES
+----QUEEN of SPADES
+----TEN of SPADES
+----NINE of SPADES
+----NINE of SPADES
+----EIGHT of SPADES
+----SEVEN of SPADES
+----SEVEN of SPADES
+----FIVE of SPADES
+----FOUR of SPADES
+----FOUR of SPADES
+----TWO of SPADES
+----ACE of DIAMONDS
+----ACE of DIAMONDS
+----QUEEN of DIAMONDS
+----QUEEN of DIAMONDS
+----JACK of DIAMONDS
+----TEN of DIAMONDS
+----NINE of DIAMONDS
+----EIGHT of DIAMONDS
+----SEVEN of DIAMONDS
+----SIX of DIAMONDS
+----SIX of DIAMONDS
+----ACE of CLUBS
+----KING of CLUBS
+----KING of CLUBS
+----QUEEN of CLUBS
+----JACK of CLUBS
+----JACK of CLUBS
+----TEN of CLUBS
+----NINE of CLUBS
+----EIGHT of CLUBS
+----SEVEN of CLUBS
+----SIX of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+----FOUR of CLUBS
+
+
++---------------+
+| PLAYER SCORES |
++---------------+
+
+----B's score is 521
+----A's score is 482
+----C's score is 484
+----D's score is 545
+
+--WINNER: D
