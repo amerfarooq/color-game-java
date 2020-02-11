@@ -1,4 +1,4 @@
-Color Game Simulation
+**Color Game Simulation**
 
 You are to implement a simulation of card game called Colors. In any playing card game, the deck is a
 collection of 52 playing cards each belonging to 4 suit (Hearts, Spades, Diamonds and Club). Each card
@@ -8,11 +8,10 @@ Rules for card sorting in hand: Once card is distributed to any player, he/she u
 hand. Usually all card are sorted by suit and then by type. Suit arrangement is Hearts, Spades, Diamonds
 and Club whereas for types the pictures card are placed first.
 
-The rules and game play is:
-    • There are a minimal of two players and maximum of four players.
-    • The game starts by first deciding number of players.
-    • The game can be played with one to four decks of cards, once this is decided; the total decks
-    become a pile.
+**The rules and game play is:**
+    ⋅⋅* There are a minimal of two players and maximum of four players.
+    ⋅⋅* The game starts by first deciding number of players.
+    ⋅⋅* The game can be played with one to four decks of cards, once this is decided; the total decks become a pile.
     • Game starts by shuffling the pile and each player is given one card, and as soon as any player gets
     a Jack of any suit, distribution ends and the player with the jack is the one who is to pick any suit
     as color for the game.
